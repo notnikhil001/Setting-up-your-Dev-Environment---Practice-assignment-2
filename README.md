@@ -22,3 +22,24 @@ This project is part of the Kalvium Practice Assignment #2, where we set up a de
    ```sh
    git clone <your-repo-url>
    cd dev-environment-setup
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the server:
+   ```sh
+   npm run dev
+   ```
+4. Open `http://localhost:3000/` in your browser to verify the setup.
+
+## How to Contribute
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch`
+3. Make your changes and commit them: `git commit -m "Added new feature"`
+4. Push the changes: `git push origin feature-branch`
+5. Open a pull request.
+
+## License
+This project is for educational purposes only.
+
