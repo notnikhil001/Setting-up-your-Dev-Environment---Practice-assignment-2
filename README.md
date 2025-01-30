@@ -40,6 +40,4 @@ This project is part of the Kalvium Practice Assignment #2, where we set up a de
 4. Push the changes: `git push origin feature-branch`
 5. Open a pull request.
 
-## License
-This project is for educational purposes only.
 
