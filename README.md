@@ -1,43 +1,46 @@
-# Dev Environment Setup
+# 🚀 Node.js Project Setup
 
-## Overview
-This project is part of the Kalvium Practice Assignment #2, where we set up a development environment for a Node.js project. It includes setting up Git, installing necessary npm packages, and pushing the code to GitHub.
+This project was initialized as a new Node.js application with version control and necessary dependencies installed.
 
-## Features
-- Initializes a Node.js project with `npm init -y`
-- Installs essential dependencies (`express`, `dotenv`, `mongoose`)
-- Uses `nodemon` for automatic restarts during development
-- Configures Git for version control
-- Sets up a simple Express server
+## ✅ Steps Completed
 
-## Setup Instructions
+1. **📦 Created a New Node.js Project**  
+   - Initialized a new Node.js project using `npm init -y`.
 
-### Prerequisites
-- Node.js installed
-- Git installed
-- A GitHub account
+2. **🔗 Initialized Git**  
+   - Set up Git version control using `git init`.
 
-### Steps to Set Up
+3. **📌 Installed Required Packages**  
+   - Installed necessary dependencies using `npm install <package-name>` (if any specific packages were installed, mention them here).
+
+4. **🔍 Verified Installation**  
+   - Ensured all dependencies and project setup were working correctly.
+
+5. **📤 Committed and Pushed Code**  
+   - Added all files to Git using `git add .`
+   - Committed changes with `git commit -m "Initial commit"`
+   - Pushed code to a remote repository using `git push origin main`
+
+## 🛠 How to Run the Project
+
 1. Clone the repository:
    ```sh
-   git clone <your-repo-url>
-   cd dev-environment-setup
+   git clone <repository-url>
    ```
-2. Install dependencies:
+2. Navigate into the project directory:
+   ```sh
+   cd <project-folder>
+   ```
+3. Install dependencies:
    ```sh
    npm install
    ```
-3. Start the server:
+4. Run the project (if applicable):
    ```sh
-   npm run dev
+   node index.js
    ```
-4. Open `http://localhost:3000/` in your browser to verify the setup.
 
-## How to Contribute
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`
-3. Make your changes and commit them: `git commit -m "Added new feature"`
-4. Push the changes: `git push origin feature-branch`
-5. Open a pull request.
+## 📜 License
+This project is open-source and can be modified as needed.
 
-
+---
